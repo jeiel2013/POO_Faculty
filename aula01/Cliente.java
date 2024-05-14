@@ -1,3 +1,4 @@
+package aula01;
 class Cliente extends Pessoa {
     private String email;
     private String senha;

@@ -1,3 +1,4 @@
+package aula01;
 class Funcionario extends Pessoa {
     private String cargo;
     private double salario;
