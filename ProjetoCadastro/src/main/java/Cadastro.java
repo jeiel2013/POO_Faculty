@@ -79,7 +79,5 @@ public class Cadastro {
 
     public void setSalario(double Salario) {
         this.Salario = Salario;
-    }
-    
-    
+    }    
 }
