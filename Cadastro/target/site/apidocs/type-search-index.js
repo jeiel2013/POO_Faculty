@@ -1,1 +1,0 @@
-typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"com.mycompany.cadastro","l":"Cadastro"},{"p":"<Unnamed>","l":"MySQLConnection"},{"p":"<Unnamed>","l":"Produto"},{"p":"<Unnamed>","l":"ProdutoDAO"},{"p":"<Unnamed>","l":"ProdutoForm"}];updateSearchResults();
