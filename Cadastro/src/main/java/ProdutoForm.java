@@ -198,6 +198,7 @@ public class ProdutoForm extends javax.swing.JFrame {
         prod.setMarca(jTextFieldMarca.getText());
         prod.setPeso(Double.parseDouble(jTextFieldPeso.getText()));
         prod.setPreco(Double.parseDouble(jTextFieldPreco.getText()));
+        prod.cadastrar();
     }//GEN-LAST:event_jButtonCadastrarActionPerformed
 
     /**

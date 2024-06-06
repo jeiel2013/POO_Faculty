@@ -1,4 +1,4 @@
-public class Produto {
+public class Produto extends ProdutoDAO {
     private String nome;
     private String categoria;
     private String descricao;
@@ -15,6 +15,10 @@ public class Produto {
         codBarras = "";
         peso = 0;
         preco = 0;
+    }
+    
+    public void cadastrar() {
+        insertMySQL(nome, categoria, descricao, codBarras, marca, preco, peso);
     }
 
     public String getNome() {
