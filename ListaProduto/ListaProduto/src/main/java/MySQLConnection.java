@@ -18,7 +18,7 @@ public class MySQLConnection {
         porta = "3306";
         banco = "vendas";
         usuario = "root";
-        senha = "Mg17614752#";
+        senha = "admin";
         url = "jdbc:mysql://" + host + ":" + porta + "/" + banco;
     }
     

@@ -47,6 +47,8 @@ public class ProdutoForm extends javax.swing.JFrame {
         jButtonExcluir = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setBackground(new java.awt.Color(255, 255, 255));
+        setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         addWindowListener(new java.awt.event.WindowAdapter() {
             public void windowOpened(java.awt.event.WindowEvent evt) {
                 formWindowOpened(evt);
@@ -61,7 +63,7 @@ public class ProdutoForm extends javax.swing.JFrame {
                 {null, null, null, null}
             },
             new String [] {
-                "ID", "Nome", "Categoria", "Preco"
+                "ID", "Nome", "Categoria", "Preço"
             }
         ));
         jScrollPane1.setViewportView(jTable1);
